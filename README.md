@@ -92,4 +92,4 @@ Herhangi bir resim belirtmezseniz, betik otomatik olarak veri setinden **rastgel
 ```
 
 ---
-*Bu proje Tarım Teknolojilerine katkı sağlamak amacıyla açık kaynaklı olarak Hasan Köstek tarafından geliştirilmiştir.*
+*Bu proje Tarım Teknolojilerine katkı sağlamak amacıyla açık kaynaklı olarak **Hasan Köstek** tarafından geliştirilmiştir.*
