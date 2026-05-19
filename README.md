@@ -65,14 +65,14 @@ python data_preparation.py
 ```
 *Bu betik PlantVillage veri setini indirecek ve ilgili klasörlere çıkartacaktır.*
 
-### 3. Model Eğitimi (Opsiyonel)
+### 3. Model Eğitimi 
 Sıfırdan kendi modelinizi eğitmek isterseniz:
 ```bash
 python train_model.py
 ```
 *Eğitim tamamlandığında en iyi model `models/best_model.pth` olarak kaydedilir ve performans grafikleri `reports/` klasörüne aktarılır.*
 
-### 4. Tahmin Yapma (Test)
+### 4. Tahmin Yapma 
 Modeli test etmek için `predict.py` dosyasını kullanabilirsiniz. Belirli bir resim vermek için:
 ```bash
 python predict.py --image "test_resim.jpg"
