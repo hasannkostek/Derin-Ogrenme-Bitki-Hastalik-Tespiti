@@ -1,5 +1,7 @@
 # 🌱 Tarım Yapay Zekası (Plant Disease Detection)
 
+> **Doç. Dr. Yusuf Uzun rehberliğinde yürütülen Derin Öğrenme Dersi Final Projesi**
+
 Gelişen teknolojiyle birlikte tarım sektöründe verimliliği artırmak ve ürün kayıplarını en aza indirmek kritik bir önem taşıyor. **Tarım Yapay Zekası**, çiftçilerin ve ziraat mühendislerinin bitkilerdeki hastalıkları erken, hızlı ve yüksek doğrulukla teşhis edebilmesi için geliştirilmiş, Derin Öğrenme (Deep Learning) tabanlı bir görüntü sınıflandırma projesidir.
 
 Bu proje, açık kaynaklı *PlantVillage* veri setini kullanarak 21 farklı bitki/hastalık sınıfını otomatik olarak tanıyabilen bir yapay zeka modeli sunar.
@@ -11,6 +13,9 @@ Bitki hastalıklarının manuel olarak teşhis edilmesi zaman alıcıdır ve uzm
 - Model saniyeler içinde hastalığın türünü belirler.
 - Kullanıcı dostu çıktı mekanizması ile hastalığın adını net bir şekilde sunar.
 
+### 🖼️ Veri Setinden Örnekler
+![Veri Seti Örnekleri](reports/01_sample_images.png)
+
 ## 🚀 Model Başarısı
 
 Projede Transfer Learning (Transfer Öğrenme) tekniği ile **EfficientNet-B0** mimarisi kullanılmıştır.
@@ -18,6 +23,9 @@ Projede Transfer Learning (Transfer Öğrenme) tekniği ile **EfficientNet-B0** 
 - **Veri Seti:** PlantVillage (21 Sınıf)
 - **Doğrulama Başarısı (Validation Accuracy):** **%95.77** 🏆
 - **Optimizasyon:** Veri artırma (Data Augmentation) ve %50 Dropout uygulanarak modelin aşırı öğrenmesi (overfitting) başarılı bir şekilde engellenmiştir.
+
+### 📈 Eğitim ve Doğrulama Grafikleri
+![Eğitim Geçmişi](reports/training_history.png)
 
 ## 🛠️ Kullanılan Teknolojiler
 
