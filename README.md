@@ -1,8 +1,8 @@
-# 🌱 Tarım Yapay Zekası (Plant Disease Detection)
+# 🌱 Tarım Yapay Zekası 
 
 > **Doç. Dr. Yusuf Uzun rehberliğinde yürütülen Derin Öğrenme Dersi Final Projesi**
 
-Gelişen teknolojiyle birlikte tarım sektöründe verimliliği artırmak ve ürün kayıplarını en aza indirmek kritik bir önem taşıyor. **Tarım Yapay Zekası**, çiftçilerin ve ziraat mühendislerinin bitkilerdeki hastalıkları erken, hızlı ve yüksek doğrulukla teşhis edebilmesi için geliştirilmiş, Derin Öğrenme (Deep Learning) tabanlı bir görüntü sınıflandırma projesidir.
+Gelişen teknolojiyle birlikte tarım sektöründe verimliliği artırmak ve ürün kayıplarını en aza indirmek kritik bir önem taşıyor. **Tarım Yapay Zekası**, çiftçilerin ve ziraat mühendislerinin bitkilerdeki hastalıkları erken, hızlı ve yüksek doğrulukla teşhis edebilmesi için geliştirilmiş, Derin Öğrenme tabanlı bir görüntü sınıflandırma projesidir.
 
 Bu proje, açık kaynaklı *PlantVillage* veri setini kullanarak 21 farklı bitki/hastalık sınıfını otomatik olarak tanıyabilen bir yapay zeka modeli sunar.
 
@@ -18,11 +18,11 @@ Bitki hastalıklarının manuel olarak teşhis edilmesi zaman alıcıdır ve uzm
 
 ## 🚀 Model Başarısı
 
-Projede Transfer Learning (Transfer Öğrenme) tekniği ile **EfficientNet-B0** mimarisi kullanılmıştır.
+Projede Transfer Learning tekniği ile **EfficientNet-B0** mimarisi kullanılmıştır.
 
-- **Veri Seti:** PlantVillage (21 Sınıf)
-- **Doğrulama Başarısı (Validation Accuracy):** **%95.77** 🏆
-- **Optimizasyon:** Veri artırma (Data Augmentation) ve %50 Dropout uygulanarak modelin aşırı öğrenmesi (overfitting) başarılı bir şekilde engellenmiştir.
+- **Veri Seti:** PlantVillage 
+- **Doğrulama Başarısı:** **%95.77** 🏆
+- **Optimizasyon:** Veri artırma ve %50 Dropout uygulanarak modelin aşırı öğrenmesi başarılı bir şekilde engellenmiştir.
 
 ### 📈 Eğitim ve Doğrulama Grafikleri
 ![Eğitim Geçmişi](reports/training_history.png)
@@ -34,7 +34,7 @@ Projede Transfer Learning (Transfer Öğrenme) tekniği ile **EfficientNet-B0** 
 - **[Torchvision](https://pytorch.org/vision/stable/index.html)**: Görüntü işleme ve model mimarileri.
 - **Python**: Temel geliştirme dili.
 - **Kaggle API**: Veri setinin otomatik olarak indirilmesi.
-- **Antigravity (AI)**: Proje geliştirme ve kodlama süreçlerinde asistanlık.
+
 
 ## 📁 Proje Yapısı
 
@@ -92,4 +92,4 @@ Herhangi bir resim belirtmezseniz, betik otomatik olarak veri setinden **rastgel
 ```
 
 ---
-*Bu proje Tarım Teknolojilerine (AgriTech) katkı sağlamak amacıyla açık kaynaklı olarak geliştirilmiştir.*
+*Bu proje Tarım Teknolojilerine katkı sağlamak amacıyla açık kaynaklı olarak Hasan Köstek tarafından geliştirilmiştir.*
